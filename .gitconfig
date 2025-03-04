@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = main
+[user]
+	email = gabriel-rgomes@hotmail.com
+	name = Gabriel Romao
+[pull]
+	ff = only
