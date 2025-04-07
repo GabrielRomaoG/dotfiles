@@ -12,11 +12,21 @@ sudo apt install fzf ripgrep fd-find
 
 # mason
 
-sudo apt unzip
+sudo apt install unzip
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
 \. "$HOME/.nvm/nvm.sh"
 nvm install 22
-node -v 
-nvm current 
-npm -v 
+node -v
+nvm current
+npm -v
+
+# latex
+
+npm install -g tree-sitter-cli
+
+# python
+
+sudo apt install python3.12
+sudo apt install python3-pip
+sudo apt install python3-venv
