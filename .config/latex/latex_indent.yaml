@@ -505,7 +505,7 @@ modifyLineBreaks:
     manipulateSentences: 0 # 0/1
     removeSentenceLineBreaks: 1 # 0/1
     multipleSpacesToSingle: 1 # 0/1
-    textWrapSentences: 1 # 1 disables main textWrap
+    textWrapSentences: 0 # 1 disables main textWrap
     sentenceIndent: ""
     sentencesFollow:
       par: 1 # 0/1
@@ -529,7 +529,7 @@ modifyLineBreaks:
     sentencesDoNOTcontain:
       other: \\begin # regex
   textWrapOptions:
-    columns: 20
+    columns: 75
     multipleSpacesToSingle: 1
     removeBlockLineBreaks: 1
     when: before # before/after
