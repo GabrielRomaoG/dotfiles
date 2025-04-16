@@ -31,3 +31,7 @@ sudo apt install texlive latexmk texlive-extra-utils
 sudo apt install python3.12
 sudo apt install python3-pip
 sudo apt install python3-venv
+
+# grug-far
+
+sudo npm install --global @ast-grep/cli
