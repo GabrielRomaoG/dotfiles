@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# ALIASES
+
+alias nv='nvim'
+alias rebash='source .bashrc'
+
+# FUNCTIONS
+
 # Copy the ~/latex_template/ template files to some dir
 cp_latex_temp() {
     local dest="${1:-.}"
