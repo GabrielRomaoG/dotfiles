@@ -15,3 +15,10 @@ cp_latex_temp() {
         fi
     done
 }
+
+# mkdir with cd
+
+mkcdir() {
+    mkdir -p -- "$1" &&
+        cd -P -- "$1"
+}
