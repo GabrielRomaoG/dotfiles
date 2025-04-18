@@ -24,7 +24,6 @@ npm -v
 # latex
 
 npm install -g tree-sitter-cli
-sudo apt install texlive latexmk texlive-extra-utils
 
 # python
 

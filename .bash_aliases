@@ -29,3 +29,21 @@ mkcdir() {
     mkdir -p -- "$1" &&
         cd -P -- "$1"
 }
+
+# use tlmgr without user mode errors
+tlmgrsys() {
+    local pkg_list=("$@")
+    local tlmgr_path=$(which tlmgr)
+
+    if [ ! -x "$tlmgr_path" ]; then
+        echo "❌ tlmgr not found at $tlmgr_path"
+        return 1
+    fi
+
+    if [ ${#pkg_list[@]} -eq 0 ]; then
+        echo "Usage: tlmgrsys package1 [package2 ...]"
+        return 2
+    fi
+
+    sudo "$tlmgr_path" install "${pkg_list[@]}"
+}
