@@ -31,7 +31,7 @@ mkcdir() {
 }
 
 # use tlmgr without user mode errors
-tlmgrsys() {
+texman() {
     local pkg_list=("$@")
     local tlmgr_path=$(which tlmgr)
 
