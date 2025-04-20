@@ -17,4 +17,8 @@ sudo perl ./install-tl --no-interaction
 
 echo $'\n\n# Texlive bin path:\nexport PATH=/usr/local/texlive/$(date +%Y)/bin/x86_64-linux/:$PATH' >>~/.bashrc
 
+# latexindent dependency
+
+sudo apt-get install libyaml-tiny-perl libfile-homedir-perl
+
 # latex_templates
