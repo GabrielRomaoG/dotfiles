@@ -4,6 +4,7 @@
 
 alias nv='nvim'
 alias rebash='source ~/.bashrc'
+alias cl='clear'
 
 # FUNCTIONS
 
