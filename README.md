@@ -1,5 +1,15 @@
 # My personal dotfiles
 
+## Setup git local environment
+
+```bash
+cd ~
+git init
+git remote add git@github.com:GabrielRomaoG/dotfiles.git
+git fetch origin
+git checkout -f main
+```
+
 ## Latex
 
 ## Installation
