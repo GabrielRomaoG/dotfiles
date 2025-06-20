@@ -5,3 +5,5 @@
 	name = Gabriel Romao
 [pull]
 	ff = only
+[core]
+	editor = vim
