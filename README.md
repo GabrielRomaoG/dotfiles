@@ -21,3 +21,15 @@ Maybe the path for the binaries must be changed in .bashrc and in the install_la
 ### latex templates
 
 Inspiration: [latex_template](https://github.com/SeniorMars/dotfiles/tree/main/latex_template)
+
+## Additional config for WSL
+
+remember to download win32yank with PowerShell chocolatey for clipboard
+
+[chocolatey install](https://chocolatey.org/install)
+
+```
+
+choco install win32yank
+
+```
