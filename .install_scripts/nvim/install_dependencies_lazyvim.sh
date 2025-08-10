@@ -30,3 +30,8 @@ npm install -g tree-sitter-cli
 sudo apt install python3.12
 sudo apt install python3-pip
 sudo apt install python3-venv
+
+# snacks.image
+
+sudo apt install libpng-dev libjpeg-dev libtiff-dev
+sudo apt install imagemagick
