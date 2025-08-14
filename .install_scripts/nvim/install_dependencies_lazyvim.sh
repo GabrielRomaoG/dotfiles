@@ -35,3 +35,7 @@ sudo apt install python3-venv
 
 sudo apt install libpng-dev libjpeg-dev libtiff-dev
 sudo apt install imagemagick
+
+# pastify
+
+sudo apt install python3-neovim python3-pillow wl-clipboard
