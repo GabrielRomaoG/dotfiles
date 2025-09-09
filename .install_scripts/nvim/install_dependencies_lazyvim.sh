@@ -8,7 +8,10 @@ tar xf lazygit.tar.gz lazygit
 sudo install lazygit -D -t /usr/local/bin/
 
 # fzf-lua
-sudo apt install fzf ripgrep fd-find
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/personal/fzf
+yes Y | ~/personal/fzf/install
+
+sudo apt install ripgrep fd-find
 
 # mason
 
