@@ -8,6 +8,8 @@ git init
 git remote add origin git@github.com:GabrielRomaoG/dotfiles.git
 git fetch origin
 git checkout -f main
+git submodule update --init --remote --recursive
+git config status.showUntrackedFiles no
 ```
 
 ## Latex
